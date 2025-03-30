@@ -39,23 +39,29 @@ Make sure you have the following installed on your machine:
 ```bash 
 git clone https://github.com/glebbogachev00/movie-app.git
 cd movie-app
+```
 
 ### Installation
 
 ```bash 
 npm install
+```
 
 ### Set Up Environment Variables
+
 Create a new file named .env.local in the root of your project and add the following content
-```env
+
+```bash
 VITE_TMDB_API_KEY=
 VITE_APPWRITE_PROJECT_ID=
 VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-
+```
 Replace the placeholder values with your actual TheMovieDatabase API and Appwrite credentials. You can obtain these credentials by signing up on the TheMovieDatabase and creating a new project on the Appwrite
+
 
 ### 🧪 Running the Project
 
+```bash
 npm run dev
-
+```
 Open http://localhost:5173 in your browser to view the project.
