@@ -19,7 +19,8 @@ A sleek movie browsing app built with **React**, **Appwrite**, and the **TMDB AP
 
 ## 🧠 Inspiration & Credits
 
-This project was inspired by [@adrianhajdin](https://github.com/adrianhajdin)’s excellent [React Movies](https://github.com/adrianhajdin/react-movies) repo.  
+This project was built by following the [**MJ REACT Crash Course**](https://www.youtube.com/watch?v=dCLhUialKPQ&t=7387s&ab_channel=JavaScriptMastery) by **JavaScript Mastery** — a fantastic, beginner-friendly tutorial that walks through building a modern movie app using React, Appwrite, and TMDB.
+
 ## 🤸 Quick Start
 
 Follow these steps to set up the project locally on your machine.
@@ -59,7 +60,7 @@ VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
 Replace the placeholder values with your actual TheMovieDatabase API and Appwrite credentials. You can obtain these credentials by signing up on the TheMovieDatabase and creating a new project on the Appwrite
 
 
-### 🧪 Running the Project
+### Running the Project
 
 ```bash
 npm run dev
